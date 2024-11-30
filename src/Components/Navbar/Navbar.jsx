@@ -22,12 +22,6 @@ const Header = () => {
       <li>
         <NavLink to="/addCart"> My Cart</NavLink>
       </li>
-      <li>
-        <NavLink to="/aboutDetails">About</NavLink>
-      </li>
-      <li>
-        <NavLink to="/service">Service</NavLink>
-      </li>
     </>
   );
 

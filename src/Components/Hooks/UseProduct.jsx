@@ -4,7 +4,7 @@ const UseProduct = () => {
     const [products,setProducts] = useState()
     const [loader,setLoader] = useState(true)
     useEffect(()=>{
-        fetch('http://localhost:5000/brand')
+        fetch('https://branding-device-server.vercel.app/brand')
         .then(res => res.json())
         .then(data => {
             setProducts(data)

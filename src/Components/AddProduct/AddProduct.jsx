@@ -14,7 +14,7 @@ const AddProduct = () => {
         const photo = form.photo.value;
         // const photo = form.photo.value;
         const users={name,type,price,rating,brand,Description,photo}
-        fetch('http://localhost:5000/brand',{
+        fetch('https://branding-device-server.vercel.app/brand',{
           method:'POST',
           headers:{
             'content-type': "application/json"
